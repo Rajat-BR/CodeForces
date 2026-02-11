@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int n , p, count = 0, arr[50];
     cin >> n >> p;
-    for(int i = 0 ; i < n ;i++){
+    for(int i = 0 ; i < n ; i++){
         cin >> arr[i];
     } 
     int m = arr[p - 1];
